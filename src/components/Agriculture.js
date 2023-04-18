@@ -24,12 +24,12 @@ const Agriculture = () => {
 				<div class="service-block shadow">
 	<i class="ti-dashboard"></i>
 	<h3>Lifestyle Development</h3>
-	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+	<p>AI in agriculture is an AI-based chatbot developed by Digital Green in collaboration with ColoredCow. This chatbot uses AI to provide farmers with customized notifications and short videos on a real-time basis, helping them plan and manage their crops more efficiently.</p>
 </div>
 				<div class="service-block shadow">
 	<i class="ti-headphone-alt"></i>
 	<h3>Impressive Support</h3>
-	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+	<p>AI in agriculture is an AI-based chatbot developed by Digital Green in collaboration with ColoredCow. This chatbot uses AI to provide farmers with customized notifications and short videos on a real-time basis, helping them plan and manage their crops more efficiently.</p>
 </div>
 			</div>
 			<div class="col-lg-4 m-auto">
@@ -41,14 +41,14 @@ const Agriculture = () => {
 				<div class="service-block shadow">
 	<i class="ti-ruler-pencil"></i>
 	<h3>UI/UX Design</h3>
-	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+	<p>AI in agriculture is an AI-based chatbot developed by Digital Green in collaboration with ColoredCow. This chatbot uses AI to provide farmers with customized notifications and short videos on a real-time basis, helping them plan and manage their crops more efficiently.</p>
 </div>
 				
 				<div class="service-block shadow">
 	
 	<i class="ti-stats-up"></i>
 	<h3>Performance Marketing</h3>
-	<p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Vivamus</p>
+	<p>AI in agriculture is an AI-based chatbot developed by Digital Green in collaboration with ColoredCow. This chatbot uses AI to provide farmers with customized notifications and short videos on a real-time basis, helping them plan and manage their crops more efficiently.</p>
 </div>
 			</div>
 		</div>

@@ -14,7 +14,7 @@ const Navbar = () => {
   <nav className="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
   <div className="container">
     <a class="navbar-brand" href="Home.js">
-    <Link to="/"><img src="images/our_logo.png" alt="footer-logo" width="70" height="70"/></Link>
+    <Link to="/"><img src="images/our_logo.png" alt="footer-logo" width="120" height="80"/></Link>
       </a>
     <Link className="navbar-brand" to="Home"></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"

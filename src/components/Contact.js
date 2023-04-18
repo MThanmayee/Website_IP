@@ -18,7 +18,8 @@ const Contact = () => {
 		</div>
 	</div>
 </section>
-<section class="address">
+
+{/* <section class="address">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5 align-self-center">
@@ -50,7 +51,7 @@ const Contact = () => {
 			</div>
 		</div>
 	</div>
-</section>
+</section> */}
 
 <section class="contact-form section">
 	<div class="container">

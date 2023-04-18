@@ -15,7 +15,7 @@ const Footer = () => {
       <div class="row">
         <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
           <div class="block">
-          <Link to="/"><img src="images/our_logo.png" alt="footer-logo" width="70" height="70"/></Link>
+          <Link to="/"><img src="images/our_logo.png" alt="footer-logo" width="120" height="80"/></Link>
           <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
         <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>

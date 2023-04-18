@@ -1,4 +1,5 @@
 import React from 'react'
+import './home.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -8,26 +9,10 @@ import {
 const Home = () => {
     return (
         <>
-        <section class="section gradient-banner">
-			
-	<div class="shapes-container">
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
-		<div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
-		<div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
-	</div>
+		
+<section class="section gradient-banner">
+
+	
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-md-6 order-2 order-md-1 text-center text-md-left">
@@ -43,6 +28,8 @@ const Home = () => {
 </section>
 
 <section class="section pt-0 position-relative pull-top">
+	
+				
 	<div class="container">
 		<div class="rounded shadow p-5 bg-white">
 			<div class="row">
@@ -71,11 +58,18 @@ const Home = () => {
 				</div>
 			</div>
 		</div>
+	
+	
 	</div>
 </section>
-
+<div class="hero">
 <section class="feature section pt-0">
-	
+
+			<div class="cube"></div>
+			<div class="cube"></div>
+			<div class="cube"></div>
+			
+			
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 ml-auto justify-content-center">
@@ -83,7 +77,11 @@ const Home = () => {
 			<img class="img-fluid" src="images/AIP.jpg" alt="iphone"/>
 				</div>
 			</div>
+			
 			<div class="col-lg-6 mr-auto align-self-center">
+			<div class="cube"></div>
+			<div class="cube"></div>
+			<div class="cube"></div>
 				<div class="feature-content">
 				
 					<h2>How is <a
@@ -101,8 +99,10 @@ const Home = () => {
 			</div>
 		</div>
 	</div>
+	
+	
 </section>
-
+</div>
 <section class="service section bg-gray">
 	<div class="container-fluid p-0">
 		<div class="row">
@@ -173,12 +173,14 @@ const Home = () => {
 		</div>
 	</div>
 </section>
+
 <section id="Customers">
 
         <div class="container text-center py-5">
             <h1 class="display-4 text-black animated slideInDown mb-3">Customers</h1>
         </div>
-<div class="container-xxl py-5">
+		
+{/* <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -211,7 +213,13 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
+
+	<div class="hero">
+		<div class="cube"></div>
+		<div class="cube"></div>
+		<div class="cube"></div>
+	
 	<div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
@@ -220,7 +228,7 @@ const Home = () => {
                         <h1 class="display-6 mb-4">Why People Trust Us? Learn About Us!</h1>
                         <p class="mb-4">At Mavvex, we are challenging the notion that data sharing and privacy protection are mutually exclusive. Masters of our craft, relentless executors, and unconventional thinkers - we are building a data and privacy ops platform using state-of-the-art AI generative models with privacy-preserving technologies to help enterprises unlock their data assets without any privacy risks.</p>
                         <div class="row g-4">
-                            <div class="col-12">
+                            {/* <div class="col-12">
                                 <div class="skill">
                                     <div class="d-flex justify-content-between">
                                         <p class="mb-2">Digital Marketing</p>
@@ -252,8 +260,8 @@ const Home = () => {
                                         <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </div>*/}
+                        </div> 
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -264,7 +272,9 @@ const Home = () => {
             </div>
         </div>
     </div>
+	</div>
 </section>
+
         </>
     )}
     export default Home
